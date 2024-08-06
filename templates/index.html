@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Queue Maintainer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Person Queue Maintainer</h1>
+        <div class="form-group">
+            <input type="text" id="element" placeholder="Enter name to add" />
+            <button onclick="addElement()">Add Person</button>
+        </div>
+        <div class="form-group">
+            <button onclick="deleteElement()">Delete Person</button>
+        </div>
+        <div class="form-group">
+            <button onclick="displayQueue()">Display Queue</button>
+        </div>
+        <div class="form-group">
+            <input type="text" id="searchPerson" placeholder="Enter name to search" />
+            <button onclick="searchPerson()">Search Person</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
