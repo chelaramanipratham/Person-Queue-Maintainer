@@ -34,9 +34,9 @@ A web application built with Flask for managing a queue of people. Users can add
     cd person-queue-maintainer
     ```
 
-3. **Install the required Python packages**:
+3. **Install the Dependencies**:
     ```bash
-    pip install flask
+   pip install -r requirements.txt
     ```
 
 ### Running the Application
