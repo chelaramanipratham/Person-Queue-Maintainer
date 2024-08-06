@@ -1,25 +1,70 @@
-# Person-Queue-Management System
+# Person Queue Maintainer
 
-This is a simple queue management system implemented in C++. It allows users to add persons to a queue, delete persons from the queue, display all persons in the queue, and search for a person in the queue.
+A web application built with Flask for managing a queue of people. Users can add people to the queue, delete them, display the current queue, and search for specific individuals.
 
-## Features:
--Add Person to Queue: Allows adding a person to the queue.<br>
--Delete Person from Queue: Allows deleting a person from the front of the queue.<br>
--Display Queue: Displays all persons currently in the queue.<br>
--Search Queue: Allows searching for a person in the queue by name.<br>
+## Features
 
-## Usage:
-1)Compile the program:
-```sh
-g++ main.cpp -o queue_management_system
-```
+- Add a person to the queue
+- Delete a person from the queue
+- Display the entire queue
+- Search for a specific person in the queue
 
-2)Run the program:
-```sh
-./queue_management_system
-```
+## Tech Stack
 
-3)Follow the on-screen instructions to manage the queue.
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python, Flask
+- **Styling**: Custom CSS
 
-## Contributing:
-If you'd like to contribute to this project, please fork the repository and submit a pull request.
+## Getting Started
+
+### Prerequisites
+
+- Python 3.12.1
+- Flask
+
+### Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/chelaramanipratham/person-queue-maintainer.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd person-queue-maintainer
+    ```
+
+3. **Install the required Python packages**:
+    ```bash
+    pip install flask
+    ```
+
+### Running the Application
+
+1. **Start the Flask server**:
+    ```bash
+    python app.py
+    ```
+
+2. **Open your web browser** and go to `http://127.0.0.1:5000` to view the app.
+
+## Usage
+
+- **Add Person**: Enter a name in the input field and click "Add Person".
+- **Delete Person**: Click "Delete Person" to remove the first person in the queue.
+- **Display Queue**: Click "Display Queue" to view the current queue.
+- **Search Person**: Enter a name in the search input field and click "Search Person" to find their position in the queue.
+
+
+## Contributing
+
+Feel free to open issues or submit pull requests if you have suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Flask documentation
+- Various online resources and tutorials
